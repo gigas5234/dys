@@ -10,21 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko">
       <body className="min-h-screen bg-white text-gray-900 antialiased">
-        <div className="mx-auto max-w-4xl px-6 py-10">
-          <header className="flex items-center justify-between">
-            <h1 className="text-2xl font-semibold">
-              {process.env.NEXT_PUBLIC_APP_NAME || "데연소"}
-            </h1>
-            <a
-              className="text-sm underline underline-offset-4 hover:opacity-80"
-              href="/api/health"
-            >
-              Health
-            </a>
-          </header>
-          <main className="mt-8">{children}</main>
-          <footer className="mt-12 text-sm text-gray-500">© {new Date().getFullYear()} Deyeonso</footer>
-        </div>
+        {children}
       </body>
     </html>
   );
