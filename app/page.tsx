@@ -27,7 +27,7 @@ function Header(){
           >
             새로고침
           </button>
-          <a href="/camera" className="rounded-full px-4 py-1.5 text-sm font-medium card">시작하기</a>
+          <a href="/live" className="rounded-full px-4 py-1.5 text-sm font-medium card">시작하기</a>
         </div>
       </div>
     </header>
