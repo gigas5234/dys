@@ -27,7 +27,7 @@ function Header(){
           >
             새로고침
           </button>
-          <a href="/login" className="rounded-full px-4 py-1.5 text-sm font-medium card">시작하기</a>
+          <a href="/camera" className="rounded-full px-4 py-1.5 text-sm font-medium card">시작하기</a>
         </div>
       </div>
     </header>
@@ -716,7 +716,7 @@ function Why(){
       </ul>
           <div className="mt-6 flex items-center gap-3">
             <a href="#persona" className="rounded-full px-5 py-2 text-sm font-semibold card">빠른 체험</a>
-            <a href="/login" className="rounded-full px-5 py-2 text-sm font-semibold" style={{ background: '#111', color: '#fff' }}>시작하기</a>
+            <a href="/camera" className="rounded-full px-5 py-2 text-sm font-semibold" style={{ background: '#111', color: '#fff' }}>시작하기</a>
           </div>
         </div>
       </div>
