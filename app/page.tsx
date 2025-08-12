@@ -27,7 +27,7 @@ function Header(){
           >
             새로고침
           </button>
-          <a href="/live" className="rounded-full px-4 py-1.5 text-sm font-medium card">시작하기</a>
+          <a href="/camera" className="rounded-full px-4 py-1.5 text-sm font-medium card">시작하기</a>
         </div>
       </div>
     </header>
@@ -758,7 +758,7 @@ export default function Home() {
         <footer className="border-t" style={{ borderColor: "rgba(0,0,0,.06)" }}>
           <div className="mx-auto w-full px-6 py-12 flex items-center justify-between text-sm" style={{ color: "var(--muted)" }}>
             <span>© {new Date().getFullYear()} 데연소</span>
-            <a href="/login" className="rounded-full px-4 py-1.5 font-medium" style={{ background: "#111", color: "#fff" }}>시작하기</a>
+            <a href="/camera" className="rounded-full px-4 py-1.5 font-medium" style={{ background: "#111", color: "#fff" }}>시작하기</a>
           </div>
         </footer>
       </main>
